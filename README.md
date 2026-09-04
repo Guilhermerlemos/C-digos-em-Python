@@ -1,2 +1,4 @@
-# C-digos-em-Python
-Códigos feitos por mim em Python
+# Códigos em Python
+
+Códigos feitos por mim, utilizando a linguagem python Python!
+

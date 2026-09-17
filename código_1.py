@@ -3,6 +3,7 @@ numero_secao = int(input())
 # verificação de seção  --- lembrando que numero tem que ser maio que 9
 if numero_secao < 9:
     print("Essa seção foi excluída por motivos que não podem ser revelados. Entre no labirinto e corra novamente.")
+
 else:
     primos = []  # lista de todos os primos
 
@@ -40,12 +41,13 @@ else:
     lista_primos_unico.sort(reverse=True)
 
     for i in range(len(lista_primos_unico)):
-      if i == len(lista_primos_unico) - 1:
-        print(lista_primos_unico[i], end="")
-      else:
-        print(lista_primos_unico[i], end=" ")  # printar todos os numeros em uma única linha
+        if i == len(lista_primos_unico) - 1:
+            print(lista_primos_unico[i], end="")
+        else:
+            # printar todos os numeros em uma única linha
+            print(lista_primos_unico[i], end=" ")
     print()
-    
+
     lista_primos_unico.sort()
     for num in lista_primos_unico:
         qtd_vezes = primos.count(num)
